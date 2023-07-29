@@ -27,7 +27,6 @@ const AddNew = ({ onAddTransaction }) => {
   // Function to handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add validation if needed (not included in the provided code)
 
     // Call the onAddTransaction prop function to add the new transaction
     onAddTransaction(newTransaction);
