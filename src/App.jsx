@@ -8,8 +8,6 @@ function App() {
   return (
     <>
       <div>
-        <SearchBar />
-        <AddNew />
         <TransactionList />
       </div>
     </>
